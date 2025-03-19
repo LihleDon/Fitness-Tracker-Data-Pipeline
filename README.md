@@ -22,3 +22,19 @@ A data engineering project showcasing AWS cloud skills by processing mock fitnes
 - S3: < 5 GB (mock data ~10 KB).
 - Lambda: < 750,000 seconds/month (few executions).
 - DynamoDB: < 25 GB, 5 write units (well within limits).
+
+## Setup Instructions
+1. Clone the repo: `git clone https://github.com/LihleDon/Fitness-Tracker-Data-Pipeline.git`
+2. Configure AWS CLI with your credentials.
+3. Run `scripts/generate_fitness_data.py` to create mock data.
+4. Deploy AWS resources (S3, Lambda, DynamoDB) using the provided commands in this README.
+5. Upload data to S3 to trigger the pipeline.
+
+## Technologies Used
+- **AWS**: S3, Lambda, DynamoDB, CloudWatch.
+- **Python**: Data processing with Boto3.
+- **Git**: Version control and GitHub hosting.
+
+## Contact
+- GitHub: [LihleDon](https://github.com/LihleDon)
+- (www.linkedin.com/in/lihle-dotyeni-28297126b)
