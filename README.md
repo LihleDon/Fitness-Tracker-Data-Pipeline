@@ -37,6 +37,14 @@ A data engineering project showcasing AWS cloud skills by processing mock fitnes
 
 ## Contact
 - GitHub: [LihleDon](https://github.com/LihleDon)
-- (www.linkedin.com/in/lihle-dotyeni-28297126b)
+- LinkedIn: [Lihle Dotyeni](https://www.linkedin.com/in/lihle-dotyeni-28297126b)
+
 ## Sample Output
-![DynamoDB Sample](images/dynamodb_sample.png)
+Below are examples of aggregated fitness data stored in DynamoDB:
+
+- **Daily Summary 1**: First set of processed user data.
+  ![DynamoDB Sample 1](images/dynamodb_sample.png)
+- **Daily Summary 2**: Additional user data from a different upload.
+  ![DynamoDB Sample 2](images/dynamodb_sample2.png)
+- **Daily Summary 3**: Further aggregated results.
+  ![DynamoDB Sample 3](images/dynamodb_sample3.png)
