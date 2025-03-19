@@ -38,3 +38,5 @@ A data engineering project showcasing AWS cloud skills by processing mock fitnes
 ## Contact
 - GitHub: [LihleDon](https://github.com/LihleDon)
 - (www.linkedin.com/in/lihle-dotyeni-28297126b)
+## Sample Output
+![DynamoDB Sample](images/dynamodb_sample.png)
