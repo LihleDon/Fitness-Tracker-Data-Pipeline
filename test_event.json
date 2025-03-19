@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "fitness-tracker-raw-data" 
+        },
+        "object": {
+          "key": "input/fitness_raw_data.csv"
+        }
+      }
+    }
+  ]
+}
