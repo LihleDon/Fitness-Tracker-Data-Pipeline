@@ -35,10 +35,6 @@ A data engineering project showcasing AWS cloud skills by processing mock fitnes
 - **Python**: Data processing with Boto3.
 - **Git**: Version control and GitHub hosting.
 
-## Contact
-- GitHub: [LihleDon](https://github.com/LihleDon)
-- LinkedIn: [Lihle Dotyeni](https://www.linkedin.com/in/lihle-dotyeni-28297126b)
-
 ## Sample Output
 Below are examples of aggregated fitness data stored in DynamoDB:
 
@@ -48,3 +44,7 @@ Below are examples of aggregated fitness data stored in DynamoDB:
   ![DynamoDB Sample 2](images/dynamodb_sample2.png)
 - **Daily Summary 3**: Further aggregated results.
   ![DynamoDB Sample 3](images/dynamodb_sample3.png)
+
+---
+- GitHub: [LihleDon](https://github.com/LihleDon)
+- LinkedIn: [Lihle Dotyeni](https://www.linkedin.com/in/lihle-dotyeni-28297126b)
