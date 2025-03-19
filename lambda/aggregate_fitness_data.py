@@ -2,6 +2,7 @@ import boto3
 import csv
 from io import StringIO
 from datetime import datetime
+from decimal import Decimal
 
 s3_client = boto3.client("s3")
 dynamodb = boto3.resource("dynamodb")
@@ -42,7 +43,7 @@ def lambda_handler(event, context):
                     "user_id": user_id,
                     "date": date,
                     "total_steps": data["steps"],
-                    "total_calories": round(data["calories"], 2)
+                    "total_calories": Decimal(str(round(data["calories"], 2)))
                 }
             )
     
