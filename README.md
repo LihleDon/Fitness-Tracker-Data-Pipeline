@@ -1,6 +1,6 @@
 # Fitness Tracker Data Pipeline
 
-Serverless AWS pipeline to aggregate and store mock fitness tracker data for daily user insights.
+A Serverless AWS pipeline to aggregate and store mock fitness tracker data for daily user insights.
 
 ## Project Structure
 - `data/`: Local mock fitness data (e.g., `fitness_raw_data.csv`).
